@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Legenda Clicável YT",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}

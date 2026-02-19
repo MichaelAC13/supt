@@ -1,0 +1,16 @@
+.ytp-caption-segment {
+    pointer-events: auto !important;
+    user-select: none;
+}
+
+.word-clickable {
+    cursor: pointer !important;
+    display: inline-block !important;
+    z-index: 2147483647 !important; /* Valor máximo de z-index */
+    position: relative !important;
+}
+
+/* Garante que o container da legenda não bloqueie o clique */
+.ytp-caption-window-container {
+    pointer-events: none !important;
+}
